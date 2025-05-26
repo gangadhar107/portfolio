@@ -53,21 +53,21 @@ function App() {
       description: "Built an interactive Power BI dashboard to visualize and analyze sales performance and customer trends.",
       techStack: ["Power BI", "DAX"],
       githubLink: "https://github.com/gangadhar107/Sales-Analysis-Report-using-Power-BI",
-      image: "/images/projects/imagesprojects1.png"
+      image: "/portfolio/images/projects/imagesprojects1.png"
     },
     {
       title: "Codebasics Resume Project Challenge #13",
       description: "Solved real-world business problems using advanced SQL to extract insights on ride-sharing operations.",
       techStack: ["SQL", "Power BI", "DAX"],
       githubLink: "https://github.com/gangadhar107/codebasics-resume-challenge-13",
-      image: "/images/projects/imagesprojects2.jpg"
+      image: "/portfolio/images/projects/imagesprojects2.jpg"
     },
     {
       title: "Facial Emotion Detector",
       description: "Developed a deep learning model to classify facial emotions from images using OpenCV and CNN.",
       techStack: ["Python", "OpenCV", "CNN", "Deep Learning"],
       githubLink: "https://github.com/gangadhar107/Facial-Emotion-Detector-using-OpenCV-and-Deep-Learning",
-      image: "/images/projects/imagesprojects3.png"
+      image: "/portfolio/images/projects/imagesprojects3.png"
     }
   ];
 
@@ -104,37 +104,37 @@ function App() {
       name: "Data Science for Engineers",
       organization: "NPTEL",
       link: "https://drive.google.com/file/d/1y5BoQjXtrBmtbUaoI2QwY6QochNXBVeV/view?usp=sharing",
-      logo: "/images/certifications/nptel.jpg"
+      logo: "/portfolio/images/certifications/nptel.jpg"
     },
     {
       name: "Database Management Systems",
       organization: "NPTEL",
       link: "https://drive.google.com/file/d/1jnBZ9PK_Z9GZ2L6-FADfcTeZPgh-l_mt/view?usp=sharing",
-      logo: "/images/certifications/nptel.jpg"
+      logo: "/portfolio/images/certifications/nptel.jpg"
     },
     {
       name: "Basic SQL",
       organization: "HackerRank",
       link: "https://www.hackerrank.com/certificates/525a200c90a4",
-      logo: "/images/certifications/HackerRank_logo.png"
+      logo: "/portfolio/images/certifications/HackerRank_logo.png"
     },
     {
       name: "Intermediate SQL",
       organization: "HackerRank",
       link: "https://www.hackerrank.com/certificates/8dab442753f2",
-      logo: "/images/certifications/HackerRank_logo.png"
+      logo: "/portfolio/images/certifications/HackerRank_logo.png"
     },
     {
       name: "Basic Python Programming",
       organization: "HackerRank",
       link: "https://www.hackerrank.com/certificates/cd2845b611cd",
-      logo: "/images/certifications/HackerRank_logo.png"
+      logo: "/portfolio/images/certifications/HackerRank_logo.png"
     },
     {
       name: "Career Essentials in Data Analysis by Microsoft and LinkedIn",
       organization: "LinkedIn",
       link: "https://www.linkedin.com/learning/certificates/a324c4b5e9dd3fc69e915286b6c83559b41278b8f076a62139a3fea674ffe0db",
-      logo: "/images/certifications/LinkedIn_logo.png"
+      logo: "/portfolio/images/certifications/LinkedIn_logo.png"
     }
   ];
 
