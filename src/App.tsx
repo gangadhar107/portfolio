@@ -189,7 +189,7 @@ function App() {
               className="flex gap-4"
             >
               <a 
-                href="/resume.pdf" 
+                href="/portfolio/Gangadhar_Resume.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 dark:bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
