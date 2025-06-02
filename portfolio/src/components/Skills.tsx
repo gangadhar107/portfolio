@@ -5,26 +5,26 @@ const skills = [
   {
     category: 'Data Analysis',
     items: [
-      { name: 'SQL', level: 90 },
-      { name: 'Python', level: 85 },
-      { name: 'Excel', level: 85 },
+      'SQL',
+      'Python',
+      'Excel',
     ],
   },
   {
     category: 'Visualization',
     items: [
-      { name: 'Power BI', level: 90 },
-      { name: 'Matplotlib', level: 80 },
-      { name: 'Seaborn', level: 80 },
+      'Power BI',
+      'Matplotlib',
+      'Seaborn',
     ],
   },
   {
     category: 'Statistics',
     items: [
-      { name: 'A/B Testing', level: 85 },
-      { name: 'Regression', level: 80 },
-      { name: 'Time Series', level: 75 },
-      { name: 'Clustering', level: 70 },
+      'A/B Testing',
+      'Regression',
+      'Time Series',
+      'Clustering',
     ],
   },
 ]
@@ -60,26 +60,13 @@ const Skills = () => {
               <h3 className="text-xl font-semibold mb-6 text-center">
                 {skillGroup.category}
               </h3>
-
               <div className="space-y-4">
                 {skillGroup.items.map((skill, skillIndex) => (
-                  <div key={skillIndex}>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-gray-700 dark:text-gray-300">
-                        {skill.name}
-                      </span>
-                      <span className="text-gray-600 dark:text-gray-400">
-                        {skill.level}%
-                      </span>
-                    </div>
-                    <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        animate={inView ? { width: `${skill.level}%` } : {}}
-                        transition={{ duration: 1, delay: skillIndex * 0.1 }}
-                        className="h-full bg-blue-600 dark:bg-blue-400 rounded-full"
-                      />
-                    </div>
+                  <div
+                    key={skillIndex}
+                    className="text-gray-700 dark:text-gray-300 text-center"
+                  >
+                    {skill}
                   </div>
                 ))}
               </div>
